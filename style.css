@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #333;
+    box-shadow: inset 0 0 60px rgb(255, 13, 0);
+    height: 100vh;
+}
+.container{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+button{
+    padding: 10px 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    background: rgb(255, 13, 0);
+    color: white;
+    transition: 0.5s;
+    border: none;
+    border-radius: 7px;
+}
+button:hover{
+    box-shadow: 0 0 15px rgb(255, 13, 0);
+}
+@media screen and (max-width: 350px) {
+    button{
+        padding: 5px 15px;
+        font-size: 13px;
+    }
+   .img{
+        width: 100px;
+   }
+}
+@media screen and (max-width: 250px) {
+    button{
+        padding: 5px 12px;
+        font-size: 12px;
+
+        border-radius: 5px;
+    }
+   .img{
+        width: 75px;
+   }
+}
