@@ -10,7 +10,7 @@ body{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-left: 150px;
+    justify-content: center;
 }
 .card{
     width: 325px;
@@ -76,22 +76,22 @@ button:hover{
 
 @media screen and (max-width: 490px) {
         .card-container{
-            margin-left: 130px;
+            align-items: center;
         }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 415px) {
     .card-container{
-        margin-left: 120px;
+        margin-left: 90px;
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 431px) {
     .card-container{
-        margin-left: 100px;
+        margin-left: 90px;
     }
 }
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 391px) {
     .card-container{
         margin-left: 70px;
     }
