@@ -1,20 +1,27 @@
 body{
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background: #333;
-    box-shadow: inset 0 0 60px rgb(255, 13, 0);
-    height: 100vh;
+    box-shadow: inset 0 0 50px rgb(255, 13, 0);
+    height: 100vh;    
+    font-family: sans-serif;
 }
-.container{
-    margin-top: 40px;
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    width: 325px;
+    margin: 20px;
+    gap: 20px;
+    margin-top: 150px;
+}
+.card img{
     display: flex;
     align-items: center;
-    flex-direction: column;
     justify-content: center;
-    gap: 20px;
+    margin-left: 15px;
 }
 button{
     padding: 10px 20px;
@@ -23,9 +30,19 @@ button{
     font-size: 20px;
     background: rgb(255, 13, 0);
     color: white;
-    transition: 0.5s;
+    transition: 0.2s;
     border: none;
     border-radius: 7px;
+    margin-top: 20px;
+}
+.text{
+    display: flex;
+    margin-top: 200px;
+    align-items: end;
+    justify-content: center;
+    font-size: 10px;
+    color: white;
+    font-weight: thin;
 }
 button:hover{
     box-shadow: 0 0 15px rgb(255, 13, 0);
